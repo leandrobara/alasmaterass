@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Portugués Conversacional - Clases Online</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <!-- Fonts / Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#730bda",
+              "background-light": "#f7f5f8",
+              "background-dark": "#191022",
+            },
+            fontFamily: { display: ["Lexend"] },
+            borderRadius: {
+              DEFAULT: "0.75rem",
+              lg: "1rem",
+              xl: "1.5rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 450, "GRAD" 0, "opsz" 24;
+      }
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+
+  <body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+    <!-- Header / Navigation -->
+    <nav
+      class="sticky top-0 z-50 flex items-center bg-white/85 dark:bg-background-dark/80 backdrop-blur-md p-4 justify-between border-b border-primary/10"
+    >
+      <div class="text-primary flex size-11 shrink-0 items-center justify-center">
+        <span class="material-symbols-outlined text-[34px]">language</span>
+      </div>
+
+      <h2 class="text-slate-900 dark:text-slate-100 text-xl font-extrabold leading-tight tracking-tight flex-1 ml-3">
+        Portugués Real
+      </h2>
+    </nav>
+
+    <main class="max-w-screen-xl mx-auto">
+      <!-- Hero Section -->
+      <section class="@container">
+        <div class="flex flex-col gap-10 px-4 py-12 @[864px]:flex-row @[864px]:items-center">
+          <div
+            class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-2xl shadow-xl shadow-primary/10"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDa0-1ihPy9pdI4hYM0ARSEszzdQtGHv9fL0KI6iCVepFQLvJT8zCtc3TLb8p9gfPB_LusyyVZoaElFU0xYtoSeU3qUiKb9DQhQNwYhQnJ88oPZSi8po1cwDj5NEMR6LGUScarpS0KdtmN1rIW-UsGFd6kKzmrYm93TfnvTWSiqUw_OmutkUg7o6ueoFUkKg9lMG_vgq7EREer1BnD5qLrCEbk9x2jEziH048VC6GXR8gEyzvg03rwhezHoAN91FLw8LcB3_3lAEWM9");'
+            aria-label="Clases online"
+          ></div>
+
+          <div class="flex flex-col gap-6 @[864px]:w-full">
+            <div class="flex flex-col gap-4 text-left">
+              <span
+                class="inline-block px-4 py-1.5 bg-primary/10 text-primary text-xs font-extrabold uppercase tracking-wider rounded-full w-fit"
+              >
+                Clases 100% online en vivo
+              </span>
+
+              <h1 class="text-slate-900 dark:text-slate-100 text-4xl font-black leading-[1.1] tracking-tight @[480px]:text-5xl">
+                Clases de Portugués Conversacional
+              </h1>
+
+              <p class="text-slate-600 dark:text-slate-300 text-[18px] @[480px]:text-[19px] leading-relaxed max-w-prose">
+                Aprendé a hablar con confianza desde la primera clase. Cursos grupales, clases particulares e intensivos para todos los niveles.
+              </p>
+            </div>
+
+            <a
+              href="https://wa.me/541159453844?text=Hola%20quiero%20empezar%20con%20portugu%C3%A9s%20conversacional.%20%C2%BFMe%20cont%C3%A1s%20qu%C3%A9%20modalidad%20me%20conviene%3A%20grupal%2C%20particular%20o%20intensivo%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex min-w-[220px] w-full @[480px]:w-fit cursor-pointer items-center justify-center overflow-hidden rounded-2xl h-14 px-9 bg-primary text-white text-[17px] font-extrabold shadow-lg shadow-primary/35 hover:scale-[1.02] transition-transform"
+            >
+              Quiero empezar
+            </a>
+
+            <p class="text-slate-500 dark:text-slate-400 text-[15px] leading-relaxed">
+              Duración de clase: <span class="font-semibold">60 minutos</span> · Cupos limitados.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Benefits Grid -->
+      <section class="grid grid-cols-1 @[520px]:grid-cols-2 @[864px]:grid-cols-4 gap-4 px-4 pb-6">
+        <div class="flex items-start gap-4 rounded-2xl border border-primary/10 bg-white dark:bg-slate-900/50 p-5">
+            <span class="material-symbols-outlined text-primary text-3xl leading-none mt-0.5 shrink-0">
+                chat_bubble
+            </span>
+
+            <div class="min-w-0">
+                <h3 class="text-slate-900 dark:text-slate-100 text-[17px] font-extrabold leading-tight">
+                100% conversacional
+                </h3>
+                <p class="text-slate-600 dark:text-slate-300 text-[15px] mt-1 leading-relaxed">
+                Enfoque práctico desde el día uno.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex items-start gap-4 rounded-2xl border border-primary/10 bg-white dark:bg-slate-900/50 p-5">
+            <span class="material-symbols-outlined text-primary text-3xl leading-none mt-0.5 shrink-0">
+                record_voice_over
+            </span>
+
+            <div class="min-w-0">
+                <h3 class="text-slate-900 dark:text-slate-100 text-[17px] font-extrabold leading-tight">
+                    Fonética fuerte
+                </h3>
+                <p class="text-slate-600 dark:text-slate-300 text-[15px] mt-1 leading-relaxed">
+                Pronunciación clara y natural.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex items-start gap-4 rounded-2xl border border-primary/10 bg-white dark:bg-slate-900/50 p-5">
+            <span class="material-symbols-outlined text-primary text-3xl leading-none mt-0.5 shrink-0">
+                auto_awesome
+            </span>
+
+            <div class="min-w-0">
+                <h3 class="text-slate-900 dark:text-slate-100 text-[17px] font-extrabold leading-tight">
+                    Clases dinámicas
+                </h3>
+                <p class="text-slate-600 dark:text-slate-300 text-[15px] mt-1 leading-relaxed">
+                    Aprendizaje activo y lúdico.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex items-start gap-4 rounded-2xl border border-primary/10 bg-white dark:bg-slate-900/50 p-5">
+            <span class="material-symbols-outlined text-primary text-3xl leading-none mt-0.5 shrink-0">
+                group
+            </span>
+
+            <div class="min-w-0">
+                <h3 class="text-slate-900 dark:text-slate-100 text-[17px] font-extrabold leading-tight">
+                    Cupos limitados
+                </h3>
+                <p class="text-slate-600 dark:text-slate-300 text-[15px] mt-1 leading-relaxed">
+                    Atención cercana y seguimiento.
+                </p>
+            </div>
+        </div>
+      </section>
+
+      <!-- Target Audience Section -->
+      <section class="px-4 py-12 bg-primary/5 rounded-[28px] mx-4 my-8 border border-primary/10">
+        <h2 class="text-slate-900 dark:text-slate-100 text-3xl font-black leading-tight tracking-tight mb-8 text-center">
+          ¿Para quién son estas clases?
+        </h2>
+
+        <div class="grid gap-4 @[700px]:grid-cols-2">
+          <div class="flex items-start gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-primary/5">
+            <span class="material-symbols-outlined text-primary">flight_takeoff</span>
+            <p class="text-slate-700 dark:text-slate-200 text-[17px] leading-relaxed">Viajes o mudanza a Brasil.</p>
+          </div>
+
+          <div class="flex items-start gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-primary/5">
+            <span class="material-symbols-outlined text-primary">work</span>
+            <p class="text-slate-700 dark:text-slate-200 text-[17px] leading-relaxed">Necesidad laboral o profesional.</p>
+          </div>
+
+          <div class="flex items-start gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-primary/5">
+            <span class="material-symbols-outlined text-primary">psychology</span>
+            <p class="text-slate-700 dark:text-slate-200 text-[17px] leading-relaxed">Entendés, pero te cuesta hablar.</p>
+          </div>
+
+          <div class="flex items-start gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-primary/5">
+            <span class="material-symbols-outlined text-primary">lyrics</span>
+            <p class="text-slate-700 dark:text-slate-200 text-[17px] leading-relaxed">Querés mejorar fluidez y pronunciación.</p>
+          </div>
+
+          <div class="flex items-start gap-4 p-5 bg-white dark:bg-slate-900 rounded-2xl border border-primary/5 @[700px]:col-span-2">
+            <span class="material-symbols-outlined text-primary">start</span>
+            <p class="text-slate-700 dark:text-slate-200 text-[17px] leading-relaxed font-semibold">
+              Empezás desde cero y querés herramientas reales.
+            </p>
+          </div>
+        </div>
+
+        <p class="text-primary font-extrabold text-center mt-8 text-[18px] px-4">
+          “El objetivo es que puedas comunicarte con confianza y herramientas reales.”
+        </p>
+      </section>
+
+      <!-- Methodology Section -->
+      <section class="px-4 py-12">
+        <h2 class="text-slate-900 dark:text-slate-100 text-3xl font-black leading-tight mb-4">Metodología</h2>
+
+        <p class="text-slate-600 dark:text-slate-300 text-[17px] leading-relaxed max-w-3xl mb-8">
+          Clases <span class="font-semibold">100% online en vivo</span> de <span class="font-semibold">60 minutos</span>.
+          La gramática aparece integrada a la conversación, de forma práctica.
+        </p>
+
+        <div class="grid gap-8 @[864px]:grid-cols-2">
+          <div class="space-y-6">
+            <div class="flex gap-4">
+              <div class="size-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined text-primary">live_tv</span>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-[18px]">Clases en vivo</h4>
+                <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed">
+                  Interacción constante y corrección inmediata en tiempo real.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="size-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined text-primary">forum</span>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-[18px]">Comunicación real</h4>
+                <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed">
+                  Situaciones de la vida diaria para hablar con seguridad.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex gap-4">
+              <div class="size-12 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+                <span class="material-symbols-outlined text-primary">extension</span>
+              </div>
+              <div>
+                <h4 class="font-extrabold text-[18px]">Dinámicas activas</h4>
+                <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed">
+                  Actividades para practicar, fijar y ganar confianza.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-primary/5 p-7 rounded-3xl border border-primary/10">
+            <h4 class="font-black text-2xl mb-4 text-primary">¿Qué logramos?</h4>
+            <ul class="space-y-3 text-[16.5px]">
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[20px] text-primary">check_circle</span>
+                Fluidez al hablar
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[20px] text-primary">check_circle</span>
+                Seguridad y confianza
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[20px] text-primary">check_circle</span>
+                Fonética más precisa
+              </li>
+              <li class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-[20px] text-primary">check_circle</span>
+                Material + apoyo entre clases
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modalities Section -->
+      <section class="px-4 py-12 bg-white dark:bg-slate-900">
+        <h2 class="text-slate-900 dark:text-slate-100 text-3xl font-black text-center mb-10">Modalidades</h2>
+
+        <div class="grid gap-6 @[864px]:grid-cols-3">
+          <!-- Group -->
+          <div class="flex flex-col p-7 rounded-3xl border-2 border-primary/20 bg-background-light dark:bg-background-dark">
+            <h3 class="text-2xl font-black mb-2">Cursos grupales</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed mb-5">
+              Grupos <span class="font-semibold">abiertos por nivel</span> (no privados).
+            </p>
+
+            <div class="mb-6">
+              <div class="flex items-baseline gap-2">
+                <span class="text-4xl font-black text-primary">$47.000</span>
+                <span class="text-slate-500 text-[14px] font-semibold">/ mes</span>
+              </div>
+              <span class="text-slate-400 text-[13px] font-medium mt-1 block">aprox. USD 32 / mes</span>
+            </div>
+
+            <ul class="space-y-2 mb-7 text-[16px] text-slate-700 dark:text-slate-200">
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+                1 clase por semana (4–5 al mes)
+              </li>
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">groups</span>
+                Grupos reducidos
+              </li>
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">school</span>
+                Inicial · Intermedio · Avanzado
+              </li>
+            </ul>
+
+            <a
+              href="https://wa.me/541159453844?text=Hola%20quiero%20empezar.%20Me%20interesan%20los%20cursos%20grupales.%20%C2%BFQu%C3%A9%20horarios%20y%20cupos%20hay%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full py-3.5 bg-primary text-white text-[16.5px] font-extrabold rounded-2xl text-center hover:scale-[1.01] transition-transform"
+            >
+              Quiero empezar
+            </a>
+          </div>
+
+          <!-- Private -->
+          <div class="flex flex-col p-7 rounded-3xl border-2 border-primary/20 bg-background-light dark:bg-background-dark">
+            <h3 class="text-2xl font-black mb-2">Clases particulares</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed mb-5">
+              Clases <span class="font-semibold">privadas</span>: individual, dos personas (que ya se conocen) o grupo familiar.
+            </p>
+
+            <div class="mb-6">
+              <div class="flex items-baseline gap-2">
+                <span class="text-4xl font-black text-primary">$25.000</span>
+                <span class="text-slate-500 text-[14px] font-semibold">/ hora</span>
+              </div>
+              <span class="text-slate-400 text-[13px] font-medium mt-1 block">aprox. USD 17 / hora</span>
+            </div>
+
+            <ul class="space-y-2 mb-7 text-[16px] text-slate-700 dark:text-slate-200">
+              <li class="flex gap-2 font-extrabold text-primary">
+                <span class="material-symbols-outlined text-[20px]">percent</span>
+                10% OFF abonando el mes completo
+              </li>
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">event_repeat</span>
+                Horario a coordinar
+              </li>
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">tune</span>
+                Objetivo 100% personalizado
+              </li>
+            </ul>
+
+            <a
+              href="https://wa.me/541159453844?text=Hola%20quiero%20empezar.%20Me%20interesan%20clases%20particulares.%20%C2%BFPodemos%20coordinar%20d%C3%ADa%20y%20horario%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full py-3.5 bg-primary text-white text-[16.5px] font-extrabold rounded-2xl text-center hover:scale-[1.01] transition-transform"
+            >
+              Quiero empezar
+            </a>
+          </div>
+
+          <!-- Intensive -->
+          <div class="flex flex-col p-7 rounded-3xl border-2 border-primary/20 bg-background-light dark:bg-background-dark">
+            <h3 class="text-2xl font-black mb-2">Intensivos</h3>
+            <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed mb-5">
+              Cursos para objetivos concretos (viaje, fonética, “supervivencia”, etc.). Se dictan en meses específicos (consultar).
+            </p>
+
+            <div class="mb-6">
+              <span class="text-4xl font-black text-primary">Consultar</span>
+              <span class="text-slate-400 text-[13px] font-medium mt-1 block">Duración aprox.: 1 mes</span>
+            </div>
+
+            <ul class="space-y-2 mb-7 text-[16px] text-slate-700 dark:text-slate-200">
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">timer</span>
+                Período corto
+              </li>
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">ads_click</span>
+                Foco 100% específico
+              </li>
+              <li class="flex gap-2">
+                <span class="material-symbols-outlined text-primary text-[20px]">done</span>
+                No requiere conocimientos previos
+              </li>
+            </ul>
+
+            <a
+              href="https://wa.me/541159453844?text=Hola%20quiero%20empezar.%20Me%20interesa%20un%20intensivo.%20%C2%BFQu%C3%A9%20meses%20y%20opciones%20hay%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full py-3.5 border-2 border-primary text-primary text-[16.5px] font-extrabold rounded-2xl text-center hover:bg-primary/5 transition"
+            >
+              Quiero empezar
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <a
+            href="https://wa.me/541159453844?text=Hola%20quiero%20empezar%20con%20portugu%C3%A9s%20conversacional.%20%C2%BFMe%20pas%C3%A1s%20opciones%20y%20cupos%3F"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex bg-primary text-white text-[18px] font-black px-12 py-4 rounded-2xl shadow-xl shadow-primary/40 hover:scale-[1.02] transition-transform"
+          >
+            Quiero empezar
+          </a>
+        </div>
+      </section>
+
+      <!-- Schedules Section -->
+      <section class="px-4 py-12">
+        <h2 class="text-3xl font-black mb-4 flex items-center gap-2">
+          <span class="material-symbols-outlined text-primary">calendar_month</span>
+          Horarios actuales
+        </h2>
+
+        <p class="text-slate-600 dark:text-slate-300 text-[16px] mb-8 leading-relaxed max-w-3xl">
+          Los siguientes horarios corresponden únicamente a los <span class="font-semibold">cursos grupales</span>. Las <span class="font-semibold">clases particulares</span> se coordinan de forma personalizada.
+        </p>
+
+        <div class="grid gap-6 @[600px]:grid-cols-2 @[864px]:grid-cols-3">
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-primary/10 shadow-sm">
+            <p class="text-xs font-extrabold text-primary uppercase tracking-wider mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm">campaign</span>
+              Avanzados / Conversación
+            </p>
+            <ul class="space-y-2 text-slate-700 dark:text-slate-200 text-[16.5px]">
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Martes 10–11</li>
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Miércoles 19:30–20:30</li>
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Jueves 20:15–21:15</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-primary/10 shadow-sm">
+            <p class="text-xs font-extrabold text-primary uppercase tracking-wider mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm">trending_up</span>
+              Iniciantes / Intermedios
+            </p>
+            <ul class="space-y-2 text-slate-700 dark:text-slate-200 text-[16.5px]">
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Miércoles 18–19</li>
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Jueves 9–10</li>
+            </ul>
+          </div>
+
+          <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-primary/10 shadow-sm">
+            <p class="text-xs font-extrabold text-primary uppercase tracking-wider mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-sm">star</span>
+              Iniciantes desde 0
+            </p>
+            <ul class="space-y-2 text-slate-700 dark:text-slate-200 text-[16.5px]">
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Martes 18–19</li>
+              <li class="flex items-center gap-2 font-semibold"><span class="size-2 rounded-full bg-primary/40"></span> Miércoles 9–10</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-8 p-7 bg-primary/5 rounded-3xl border-2 border-dashed border-primary/20">
+          <div class="flex flex-col @[640px]:flex-row items-center justify-between gap-4">
+            <div class="text-center @[640px]:text-left">
+              <h4 class="font-black text-primary text-xl mb-1">Clases particulares</h4>
+              <p class="text-slate-600 dark:text-slate-300 text-[16px] leading-relaxed">
+                Horarios a coordinar según disponibilidad.
+              </p>
+            </div>
+
+            <a
+              href="https://wa.me/541159453844?text=Hola%20quiero%20empezar.%20Me%20interesan%20clases%20particulares.%20%C2%BFPodemos%20coordinar%20d%C3%ADa%20y%20horario%3F"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="whitespace-nowrap inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary text-white font-extrabold rounded-2xl hover:scale-[1.02] transition-transform text-[16px]"
+            >
+              Consultar por WhatsApp
+              <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="px-4 py-12 bg-primary/5">
+        <h2 class="text-3xl font-black text-center mb-10">Experiencias de alumnos</h2>
+
+        <div class="flex overflow-x-auto gap-4 pb-6 snap-x">
+          <div class="min-w-[85%] @[480px]:min-w-[45%] snap-center bg-white dark:bg-slate-900 p-7 rounded-3xl shadow-sm border border-primary/5">
+            <p class="italic text-slate-700 dark:text-slate-200 mb-5 text-[18px] leading-relaxed">
+              “Por fin pude hablar sin miedo cuando llegué a Río. Las clases me dieron la seguridad que necesitaba.”
+            </p>
+            <div class="flex items-center gap-3">
+              <div class="size-11 rounded-full bg-primary/15 flex items-center justify-center text-primary font-black">M</div>
+              <span class="font-extrabold text-[15px]">Martina G.</span>
+            </div>
+          </div>
+
+          <div class="min-w-[85%] @[480px]:min-w-[45%] snap-center bg-white dark:bg-slate-900 p-7 rounded-3xl shadow-sm border border-primary/5">
+            <p class="italic text-slate-700 dark:text-slate-200 mb-5 text-[18px] leading-relaxed">
+              “Lo mejor es que se aprende hablando de cosas reales. Me destrabó muchísimo.”
+            </p>
+            <div class="flex items-center gap-3">
+              <div class="size-11 rounded-full bg-primary/15 flex items-center justify-center text-primary font-black">J</div>
+              <span class="font-extrabold text-[15px]">Juan Pablo</span>
+            </div>
+          </div>
+
+          <div class="min-w-[85%] @[480px]:min-w-[45%] snap-center bg-white dark:bg-slate-900 p-7 rounded-3xl shadow-sm border border-primary/5">
+            <p class="italic text-slate-700 dark:text-slate-200 mb-5 text-[18px] leading-relaxed">
+              “Las dinámicas son súper entretenidas. No te das cuenta y ya estás hablando.”
+            </p>
+            <div class="flex items-center gap-3">
+              <div class="size-11 rounded-full bg-primary/15 flex items-center justify-center text-primary font-black">L</div>
+              <span class="font-extrabold text-[15px]">Lucía V.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Important Info -->
+      <section class="px-4 py-12 text-center max-w-2xl mx-auto">
+        <h2 class="text-2xl font-black mb-6">Información importante</h2>
+
+        <div class="grid gap-4 text-[16px] text-slate-600 dark:text-slate-300">
+          <div class="flex items-start justify-center gap-2 leading-relaxed">
+            <span class="material-symbols-outlined text-primary">not_interested</span>
+            <span>Las clases no se graban. Si faltás, recibís el resumen y material visto.</span>
+          </div>
+
+          <div class="flex items-start justify-center gap-2 leading-relaxed">
+            <span class="material-symbols-outlined text-primary">payments</span>
+            <span>Pagos del 1 al 10 de cada mes: transferencias (Argentina), DolarApp, Astropay, Belo o Western Union.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final CTA -->
+      <section class="px-4 py-16 text-center bg-primary text-white rounded-t-[28px]">
+        <h2 class="text-4xl font-black mb-4 leading-tight">¿Querés empezar a hablar portugués con confianza?</h2>
+        <p class="mb-10 text-white/85 text-[17px] leading-relaxed max-w-xl mx-auto">
+          Cupos limitados para el próximo ciclo. Escribime y te recomiendo la modalidad ideal para vos.
+        </p>
+
+        <a
+          href="https://wa.me/541159453844?text=Hola%20quiero%20empezar%20con%20portugu%C3%A9s%20conversacional.%20%C2%BFHay%20cupos%20y%20horarios%20disponibles%3F"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center justify-center bg-white text-primary text-[20px] font-black px-12 py-5 rounded-3xl shadow-2xl hover:bg-background-light transition-colors"
+        >
+          Quiero empezar
+        </a>
+      </section>
+
+      <footer class="py-12 px-4 bg-background-light dark:bg-background-dark/50 text-center border-t border-primary/10">
+        <div class="max-w-screen-xl mx-auto">
+          <div class="flex flex-col items-center gap-6">
+            <div class="flex items-center gap-2 text-primary">
+              <span class="material-symbols-outlined text-2xl">language</span>
+              <span class="font-black text-lg">Portugués Real</span>
+            </div>
+
+            <div class="flex flex-col gap-2">
+              <p class="text-slate-500 dark:text-slate-400 text-sm font-semibold uppercase tracking-widest">Seguinos en redes</p>
+              <a
+                class="flex items-center gap-2 text-slate-900 dark:text-slate-100 hover:text-primary transition-colors"
+                href="https://instagram.com/alasmaterass"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="material-symbols-outlined">photo_camera</span>
+                <span class="text-2xl font-black">@alasmaterass</span>
+              </a>
+            </div>
+
+            <div class="h-px w-24 bg-primary/10"></div>
+            <p class="text-slate-400 text-xs">© 2026 Portugués Real. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
